@@ -48,6 +48,7 @@ INSERT INTO `seat`(`id`,`status`) VALUES('016',0);
 INSERT INTO `seat`(`id`,`status`) VALUES('017',0);
 INSERT INTO `seat`(`id`,`status`) VALUES('018',0);
 INSERT INTO `seat`(`id`,`status`) VALUES('019',0);
+INSERT INTO `seat`(`id`,`status`) VALUES('020',0);
 
 
 
