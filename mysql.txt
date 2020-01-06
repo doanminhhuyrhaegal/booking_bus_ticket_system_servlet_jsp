@@ -1,0 +1,55 @@
+DROP DATABASE `bookingbusticketsystem`;
+
+CREATE DATABASE `bookingbusticketsystem` CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci;
+
+CREATE TABLE `user` (
+    `username` VARCHAR(13) NOT NULL PRIMARY KEY,
+    `password` VARCHAR(13) NOT NULL,
+    `name` VARCHAR(130) NOT NULL,
+    `phone` VARCHAR(13) NOT NULL,
+    `email` VARCHAR(130) NOT NULL,
+    `role` TINYINT NOT NULL
+) engine = InnoDB;
+
+CREATE TABLE `seat` (
+    `id` VARCHAR(3) NOT NULL PRIMARY KEY,
+    `status` TINYINT NOT NULL
+) engine = InnoDB;
+
+CREATE TABLE `ticket` (
+    `id` BIGINT NOT NULL PRIMARY KEY,
+    `seat` VARCHAR(3) NOT NULL,
+    `customer` VARCHAR(13) NOT NULL,
+    `status` TINYINT NOT NULL,
+    FOREIGN KEY(`seat`) REFERENCES `seat`(`id`) ON UPDATE RESTRICT ON DELETE RESTRICT,
+    FOREIGN KEY(`customer`) REFERENCES `user`(`username`) ON UPDATE RESTRICT ON DELETE RESTRICT
+) engine = InnoDB;
+
+
+INSERT INTO `user`(`username`,`password`,`name`,`phone`,`email`,`role`) VALUES('giau','giau','Giau','0123456789','giau@fpt',1);
+INSERT INTO `user`(`username`,`password`,`name`,`phone`,`email`,`role`) VALUES('huy','huy','Huy','0987654322','huy@fpt',0);
+
+INSERT INTO `seat`(`id`,`status`) VALUES('001',0);
+INSERT INTO `seat`(`id`,`status`) VALUES('002',0);
+INSERT INTO `seat`(`id`,`status`) VALUES('003',0);
+INSERT INTO `seat`(`id`,`status`) VALUES('004',0);
+INSERT INTO `seat`(`id`,`status`) VALUES('005',0);
+INSERT INTO `seat`(`id`,`status`) VALUES('006',0);
+INSERT INTO `seat`(`id`,`status`) VALUES('007',0);
+INSERT INTO `seat`(`id`,`status`) VALUES('008',0);
+INSERT INTO `seat`(`id`,`status`) VALUES('009',0);
+INSERT INTO `seat`(`id`,`status`) VALUES('010',0);
+INSERT INTO `seat`(`id`,`status`) VALUES('011',0);
+INSERT INTO `seat`(`id`,`status`) VALUES('012',0);
+INSERT INTO `seat`(`id`,`status`) VALUES('013',0);
+INSERT INTO `seat`(`id`,`status`) VALUES('014',0);
+INSERT INTO `seat`(`id`,`status`) VALUES('015',0);
+INSERT INTO `seat`(`id`,`status`) VALUES('016',0);
+INSERT INTO `seat`(`id`,`status`) VALUES('017',0);
+INSERT INTO `seat`(`id`,`status`) VALUES('018',0);
+INSERT INTO `seat`(`id`,`status`) VALUES('019',0);
+INSERT INTO `seat`(`id`,`status`) VALUES('020',0);
+
+
+
+

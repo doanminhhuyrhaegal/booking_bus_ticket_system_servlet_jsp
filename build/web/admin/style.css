@@ -1,0 +1,217 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+a {
+    text-decoration: none;
+}
+input[type="submit"] {
+    cursor: pointer;
+    border-radius: 4px;
+}
+button {
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+header {
+    background-color: #10102a;
+}
+header img {
+    width: 200px;
+    margin: 10px;
+}
+header h4 {
+    padding: 0 0 10px 3%;
+    color: #d0d0d0;
+}
+
+.login {
+    margin: 5% 0 0 0;
+    border-collapse: collapse;
+}
+.login h4 {
+    margin: 0 0 10px 0;
+    padding: 10px;
+    background-color: #101030;
+    color: #f0f0ff;
+}
+.login input {
+    width: 300px;
+    margin: 0 0 4px 0;
+    padding: 10px;
+    color: #303030;
+    font-size: 16px;
+    border: 1px #d0d0ff solid;
+}
+.login button {
+    width: 322px;
+    margin: 10px 0 0 0;
+    padding: 10px;
+    color: #101030;
+    font-size: 16px;
+    font-weight: bold;
+    border: 1px #d0d0ff solid;
+}
+.login button img {
+    width: 18px;
+    vertical-align: middle;
+    margin: -4px 2px 0 2px;
+}
+
+.form {
+    width: 500px;
+    margin: 1% 0 0 0;
+    border-collapse: collapse;
+}
+.form h2 {
+    margin: 0 0 1% 0;
+    text-align: left;
+    color: #505060;
+}
+.form td {
+    padding: 5px;
+    color: #606060;
+    font-size: 16px;
+    font-weight: bold;
+}
+.form tr td:first-child {
+    text-align: right;
+}
+.form input {
+    width: 300px;
+    padding: 10px;
+    color: #202020;
+    font-size: 16px;
+    border: 1px #c0c0ff solid;
+}
+.form button {
+    width: 150px;
+    margin: 10px 10px 0 0;
+    padding: 8px 4px 8px 4px;
+    font-size: 16px;
+    border: 1px #c0c0ff solid;
+    background-color: #f0f0ff;
+    color: #404040;
+    font-weight: bold;
+}
+.form button img {
+    width: 18px;
+    vertical-align: middle;
+    margin: -2px 2px 0 2px;
+}
+.form select {
+    padding: 5px;
+    color: #404040;
+    font-size: 14px;
+}
+.form p {
+    margin:0 0 0 2px;
+    color: #d04040;
+}
+
+.data {
+    width: 1000px;
+    margin: 1% 0 0 0;
+    color: #303030;
+    border-collapse: collapse;
+}
+.data tr {
+    margin: 2% 0 0 0;
+    border-top: 2px #c0c0c0 solid;
+}
+.data tr:first-child td {
+    padding: 10px 0 10px 2px;
+    background-color: #f0f0f0;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    color: #505050;
+    border-left: 1px #c0c0c0 solid;
+}
+.data td {
+    padding: 4px 0 4px 0;
+}
+.data center {
+    padding: 0 10px 0 10px;
+}
+.data input {
+    padding: 4px;
+    font-size: 14px;
+    color: #404040;
+    border: 1px #e0e0ff solid;
+}
+.data input[type="submit"] {
+    font-size: 12px;
+    font-weight: bold;
+    border: 1px #c0c0ff solid;
+}
+.data input[value="Change role"] {
+    background-color: #e0ffe0;
+}
+.data input[value="Change password"] {
+    background-color: #e0e0ff;
+}
+.data input[value="Edit info"] {
+    background-color: #ffe0e0;
+}
+
+.filter {
+    width: 1000px;
+    margin: 3% 0 0 0;
+    font-size: 14px;
+    border-collapse: collapse;
+}
+.filter input {
+    padding: 4px;
+    font-size: 16px;
+    border: 1px #c0c0ff solid;
+}
+.filter button {
+    padding: 4px;
+    font-size: 14px;
+    border: 1px #c0c0ff solid;
+}
+.filter button img {
+    width: 16px;
+    vertical-align: middle;
+    margin: -2px 2px 0 2px;
+}
+.filter select {
+    padding: 2px;
+    margin: 0 2% 0 0;
+    font-size: 14px;
+    border: 1px #c0c0ff solid;
+}
+.filter input[name="key"] {
+    width: 300px;
+}
+.filter button[name="search"] {
+    background-color: #e0e0ff;
+}
+.filter button[name="adduser"] {
+    float: right;
+    background-color: #ffd0d0;
+}
+
+.page {
+    width: 350px;
+    margin: 2% 0 0 0;
+}
+.page input {
+    width: 50px;
+    font-weight: bold;
+    padding: 6px;
+    background-color: #ffffff;
+    border: 1px #d0d0d0 solid;
+}
+.page input[name="current"] {
+    width: 24px;
+}
+.page input[value="Go to"] {
+    color: #404040;
+}
+
+
+
+
